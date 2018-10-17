@@ -6,14 +6,14 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>java集合框架源码学习-ArrayList | Hexo</title>
+  <title>java集合框架源码学习-ArrayList | ofhuan&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="开始之前ArrayList是我们日常开发过程中用的比较频繁的集合了，对于一个我们经常打交道的集合，所谓知其然，还要知其所以然，我们不应该对他仅仅停留在使用层面，今天我们就学习下他的源码实现 类的描述在开始看代码之前我们可以先看看ArrayList的类注释，本篇文章的源代码基于jdk1.7，看看类作者是怎么描述ArrayList的，以下是类注释（翻译水平有限，可能有误差~_~）： List接口可调整">
 <meta name="keywords" content="集合,源码,ArrayList">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java集合框架源码学习-ArrayList">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/java集合框架源码分析-ArrayList/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="ofhuan&#39;s blogs">
 <meta property="og:description" content="开始之前ArrayList是我们日常开发过程中用的比较频繁的集合了，对于一个我们经常打交道的集合，所谓知其然，还要知其所以然，我们不应该对他仅仅停留在使用层面，今天我们就学习下他的源码实现 类的描述在开始看代码之前我们可以先看看ArrayList的类注释，本篇文章的源代码基于jdk1.7，看看类作者是怎么描述ArrayList的，以下是类注释（翻译水平有限，可能有误差~_~）： List接口可调整">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-05-28T06:36:44.221Z">
@@ -21,7 +21,7 @@
 <meta name="twitter:title" content="java集合框架源码学习-ArrayList">
 <meta name="twitter:description" content="开始之前ArrayList是我们日常开发过程中用的比较频繁的集合了，对于一个我们经常打交道的集合，所谓知其然，还要知其所以然，我们不应该对他仅仅停留在使用层面，今天我们就学习下他的源码实现 类的描述在开始看代码之前我们可以先看看ArrayList的类注释，本篇文章的源代码基于jdk1.7，看看类作者是怎么描述ArrayList的，以下是类注释（翻译水平有限，可能有误差~_~）： List接口可调整">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="ofhuan&#39;s blogs" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
