@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>LinkedHashMap源码分析 | ofhuan&#39;s blogs</title>
+  <title>java集合框架源码学习-LinkedHashMap | ofhuan&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="开始之前我们已经看了HashMap的源码，它是一个高性能的存储key-value键值对的容器，才用了hash表和链表的方式存储数据，但是它并不能保持键值对的顺序，今天要学习的就是一种能保持插入顺序的HashMap-LinkedHashMap 老规矩，先来看下作者怎么描述的LinkedHashMap 类的描述Map基于hash表和链表的实现，可以顺序迭代，这个实现和HashMap不同因为它维护了一个">
 <meta name="keywords" content="集合,源码,LinkedHashMap">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LinkedHashMap源码分析">
+<meta property="og:title" content="java集合框架源码学习-LinkedHashMap">
 <meta property="og:url" content="http://yoursite.com/2018/06/22/java集合框架源码分析LinkedHashMap/index.html">
 <meta property="og:site_name" content="ofhuan&#39;s blogs">
 <meta property="og:description" content="开始之前我们已经看了HashMap的源码，它是一个高性能的存储key-value键值对的容器，才用了hash表和链表的方式存储数据，但是它并不能保持键值对的顺序，今天要学习的就是一种能保持插入顺序的HashMap-LinkedHashMap 老规矩，先来看下作者怎么描述的LinkedHashMap 类的描述Map基于hash表和链表的实现，可以顺序迭代，这个实现和HashMap不同因为它维护了一个">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-03T08:31:36.592Z">
+<meta property="og:updated_time" content="2018-12-03T08:54:51.019Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LinkedHashMap源码分析">
+<meta name="twitter:title" content="java集合框架源码学习-LinkedHashMap">
 <meta name="twitter:description" content="开始之前我们已经看了HashMap的源码，它是一个高性能的存储key-value键值对的容器，才用了hash表和链表的方式存储数据，但是它并不能保持键值对的顺序，今天要学习的就是一种能保持插入顺序的HashMap-LinkedHashMap 老规矩，先来看下作者怎么描述的LinkedHashMap 类的描述Map基于hash表和链表的实现，可以顺序迭代，这个实现和HashMap不同因为它维护了一个">
   
     <link rel="alternative" href="/atom.xml" title="ofhuan&#39;s blogs" type="application/atom+xml">
@@ -150,7 +150,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      LinkedHashMap源码分析
+      java集合框架源码学习-LinkedHashMap
     </h1>
   
 
